@@ -1,0 +1,23 @@
+{
+  "name": "@vuldin/servermesh-client",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Joshua Purcell",
+    "email": "hello@vuld.in"
+  },
+  "repository": "https://github.com/vuldin/servermesh-client",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.2.3"
+  },
+  "dependencies": {
+    "d3": "^6.7.0",
+    "three": "^0.128.0"
+  }
+}
