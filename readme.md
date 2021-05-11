@@ -1,4 +1,6 @@
 # servermesh-client
+<img src="servermesh-client.gif" width="640" height="411">
+
 This is a client for a larger server meshing project.
 The main libraries are [three.js](https://threejs.org/) and [D3](https://d3js.org/).
 Three.js is used for the creating a 3D world on a `<canvas>`, and D3 is used for the crosshair on an `<svg>`.
