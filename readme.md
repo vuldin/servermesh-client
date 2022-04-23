@@ -11,3 +11,7 @@ Right now, this client just loads a single static region that is not yet provide
 But this client will eventually allow users to fly around in a three-dimensional space made up of many regions, each handled by a different server.
 Users will be able to interact with and modify objects within these regions, and each region state will be updated and shared across all clients as needed.
 I've been interested in the server meshing plans for Star Citizen, and decided to play around with the idea using technology I'm familiar with.
+
+Users fly around in a 3D space interacting with objects that slowly grow and move over time. Users try to collect enough of various types of objects/resources to complete their recipe. Objects are faster the smaller they are, and slow down as they continuously grow. Users compete against others to complete their recipe.
+
+Users are collecting and then completing recipes that create new items the user will then have access to.

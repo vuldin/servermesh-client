@@ -1,6 +1,7 @@
 import * as THREE from 'three'
-import { FlyControls } from './FlyControls'
 import * as d3 from 'd3'
+import { FlyControls } from './FlyControls'
+import { getRegionByVector } from 'servermesh-lib'
 
 let camera, controls, scene, renderer
 
@@ -136,6 +137,14 @@ function init() {
     document.body.appendChild(renderer.domElement)
 
     window.addEventListener('resize', onWindowResize)
+
+    // temp
+    const region0 = getRegionByVector({ x: 0, y: 0, z: 0 })
+    const region1 = getRegionByVector({ x: -1, y: -1, z: -1 })
+    const region199 = getRegionByVector({ x: -1, y: -3, z: -2 })
+    console.log(region0)
+    console.log(region1)
+    console.log(region199)
 }
 
 function onWindowResize() {

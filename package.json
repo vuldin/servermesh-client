@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "d3": "^6.7.0",
+    "servermesh-lib": "file:../servermesh-lib",
     "three": "^0.128.0"
   }
 }
