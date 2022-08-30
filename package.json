@@ -14,7 +14,7 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.2.3"
+    "vite": "^2.9.13"
   },
   "dependencies": {
     "d3": "^6.7.0",
